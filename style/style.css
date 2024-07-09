@@ -1,0 +1,158 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+}
+
+
+
+header{
+    max-width: 100%;
+    background-color: rgba(229, 84, 115, 0.1);
+    height: 850px;
+}
+
+.header-container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-text{
+    width: 55%;
+    padding-top: 197px;
+}
+
+.header-image{
+    width: 45%;
+    height: 800px;
+}
+
+.header-image img{
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.header-text h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+}
+
+.header-text p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 32px;
+}
+
+.btn-primary{
+    background-color: rgb(229, 84, 115);
+    padding: 20px 43px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+}
+
+.feature{
+    width: 75%;
+    margin: 178px auto 128px auto;
+}
+
+.feature-text{
+    text-align: center;
+}
+
+.feature-text h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    margin-bottom: 24px;
+}
+
+.feature-text p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.feature-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    text-align: center;
+    
+}
+
+.flower-1{
+    margin-top: 48px;
+}
+
+.feature-image-container img{
+    width: 400px;
+    height: 450px;
+    /* border: 3px solid red; */
+    border-radius: 50% 50% 0 0;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0 78px;
+}
+
+.flower-1 p{
+    text-decoration: underline;
+}
+
+.banner{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto 128px auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    height: 320px;
+    border-radius: 8px;
+
+}
+
+.content-instagram{
+    width: 75%;
+    margin: 0 auto 128px auto;
+    text-align: center;
+}
+
+.content-instagram h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    margin-bottom: 24px;   
+}
+
+.content-instagram p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.content-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+
+.content-image img{
+    width: 324px;
+    
+}
