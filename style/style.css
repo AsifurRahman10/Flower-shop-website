@@ -127,6 +127,18 @@ header{
 
 }
 
+.banner-2{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #E554730D;
+    margin-bottom: 128px;
+}
+
+
 .content-instagram{
     width: 75%;
     margin: 0 auto 128px auto;
@@ -155,4 +167,76 @@ header{
 .content-image img{
     width: 324px;
     
+}
+
+.latest-deal{
+    width: 75%;
+    height: 449px;
+    background-image: url("../asset/Rectangle\ 9.png");
+    margin: 0px auto 128px auto; 
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.latest-deal h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.latest-deal p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.latest-deal input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 16px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 13px;
+    padding-left: 22px;
+}
+
+.latest-deal .btn-style{
+    height: 64px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+    height: 449px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+footer span{
+    color: rgb(229, 84, 115);
+}
+
+footer p{
+    color: white;
+    opacity: 90%;
+    margin-top: 25px;
+    font-weight: 300;
+}
+
+#copyright{
+    color: white;
+    opacity: 40%;
+    font-size: 16px;
+    font-weight: 400;
 }
