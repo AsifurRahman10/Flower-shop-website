@@ -240,3 +240,92 @@ footer p{
     font-size: 16px;
     font-weight: 400;
 }
+
+/* section hide */
+
+.display{
+    display: none;
+}
+
+/* media query small*/
+
+@media screen and (max-width: 576px) {
+   /* latest deal */
+    .latest-deal{
+        width: 100%;
+        margin: 30px auto 128px auto;
+    }
+    .latest-deal input{
+        width: calc(100% - 16px);
+        margin: 0 auto;
+    }
+    /* instagram content */
+    .content-image{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .content-image img{
+        width: 100%;
+    }
+    /* banner-2 context */
+    .banner-2{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+    
+    .banner-2-image img{
+        width: 100%;
+    }
+
+    /* banner content */
+    .banner{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-bottom: 44px
+    }
+    /* feature context */
+    .feature{
+        width: 100%;
+    }
+    .feature-image-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-image-container img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* header context */
+
+    .header-container{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    header{
+        height: auto;
+    }
+
+    .header-text{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .header-image{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .header-image img {
+        width: 80%;
+        height: auto;
+        
+    }
+}
+
+
+
